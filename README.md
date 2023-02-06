@@ -10,4 +10,4 @@ Could not retrieve the list of available versions for provider hashicorp/aws: no
 This was because the version constrain on the providers.tf file downloaded an aws version that is lower than the version on one of the aws/modules.
 
 ### Solution
-Update the version to the required or appropriate version on the .terraform.lock.hcl file and run ' terraform init -upgrade '
+Update the version to the required or appropriate version on the .terraform.lock.hcl file and run `terraform init -upgrade`
